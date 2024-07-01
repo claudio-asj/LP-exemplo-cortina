@@ -1,0 +1,18 @@
+main {
+    background-image: url("./assets/bg-main.jpg");
+    height: 90vh;
+    background-size: cover;
+}
+
+button {
+    background-color: #28A745;
+    color: aliceblue;
+    font-weight: 500;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+}
+
+.btn-main {
+    max-width: 350px;
+    margin-top: 1rem;
+}
