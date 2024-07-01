@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
 main {
     background-image: url("./assets/bg-main.jpg");
     height: 90vh;
@@ -12,7 +17,44 @@ button {
     border-radius: 8px;
 }
 
+
 .btn-main {
     max-width: 350px;
     margin-top: 1rem;
+}
+
+#numeros {
+    display: flex;
+    margin: 4rem 0;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.numero {
+    background-color: #e6e20f17;
+    padding: 1rem 2rem;
+    display: grid;
+}
+
+.info {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#vantagens {
+    background-image: url("./assets/bg-vantagens.jpg");
+}
+
+.vantagens {
+    display: grid;
+    gap: 1rem;
+}
+
+.vantagem {
+    background-color: #e6e20fb2;
+    padding: 1rem 2rem;
 }
