@@ -10,11 +10,11 @@ main {
 }
 
 button {
-    background-color: #28A745;
-    color: aliceblue;
-    font-weight: 500;
-    padding: .5rem 1rem;
-    border-radius: 8px;
+    background-color: #28A745 !important;
+    color: aliceblue !important;
+    font-weight: 500 !important;
+    padding: .5rem 1rem !important;
+    border-radius: 8px !important;
 }
 
 
@@ -55,6 +55,12 @@ button {
 }
 
 .vantagem {
-    background-color: #e6e20fb2;
+    background-color: #c9c8a2b2;
+    border-radius: 16px;
     padding: 1rem 2rem;
+
+    h3 {
+        font-weight: 800;
+        font-size: 24px;
+    }
 }
