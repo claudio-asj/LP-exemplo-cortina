@@ -1,86 +1,534 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>Nome da Loja</title>
-</head>
-<body>
-    <main class="flex items-center justify-center">
-        <div id="main-container" class="w-[90%] flex flex-col">
-            <img src="./assets/logo.png" class="w-28 mb-4" alt="logo marca da loja">
-            <h1 class="text-3xl font-bold text-zinc-100">Modernize seus ambientes com cortinas e persianas sob medida.</h1>
-            <h2 class="font-bold text-yellow-200">Elegância nas Janelas, Conforto no Lar!</h2>
-            <button class="btn-main">Quero um orçamento</button>
+  </head>
+  <body>
+    <main class="flex flex-wrap h-screen">
+      <div class="w-full sm:w-8/12 mb-10">
+        <div class="container mx-auto h-full sm:p-10">
+          <nav class="flex px-4 justify-between items-center">
+            <div class="text-4xl font-bold">
+              NomeDaLoja<span class="text-yellow-700">.</span>
+            </div>
+            <div>
+              <img
+                src="https://image.flaticon.com/icons/svg/497/497348.svg"
+                alt=""
+                class="w-8"
+              />
+            </div>
+          </nav>
+          <header
+            class="container px-4 lg:flex mt-10 items-center h-full lg:mt-0"
+          >
+            <div class="w-full">
+              <h1 class="text-4xl lg:text-6xl font-bold">
+                Find your <span class="text-yellow-500">greeny</span> stuff for
+                your room
+              </h1>
+              <div class="w-20 h-2 bg-yellow-700 my-4"></div>
+              <p class="text-xl mb-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae maiores neque eaque ea odit placeat, tenetur illum
+                distinctio nulla voluptatum a corrupti beatae tempora aperiam
+                quia id aliquam possimus aut.
+              </p>
+              <button
+                class="bg-yellow-500 text-white text-2xl font-medium px-4 py-2 rounded shadow"
+              >
+                Learn More
+              </button>
+            </div>
+          </header>
         </div>
+      </div>
+      <img
+        src="./assets/vendedroa.jpeg"
+        alt="Leafs"
+        class="w-full h-48 object-cover sm:h-screen sm:w-4/12"
+      />
     </main>
 
-    <h2 class="text-center text-4xl font-bold text-yellow-500 my-16 ">Clientes de todo o Brasil confiam na <br/> [Nome da Loja]!</h2>
+    <h2 class="text-center text-4xl font-bold text-yellow-500 my-24">
+      Clientes de todo o Brasil confiam na <br />
+      [Nome da Loja]!
+    </h2>
 
     <div id="numeros">
-        <div class="numero">
-            <div class="info"><i class="ph-duotone ph-plus text-yellow-500"></i> 8.000</div>
-            <div class="nome">Clietes por ano</div>
+      <div class="numero">
+        <div class="info">
+          <i class="ph-duotone ph-plus text-yellow-600"></i> 8.000
         </div>
+        <div class="nome">Clietes por ano</div>
+      </div>
 
-        <div class="numero">
-            <div class="info"><i class="ph-duotone ph-plus text-yellow-500"></i> 8.000</div>
-            <div class="nome">Clietes por ano</div>
+      <div class="numero">
+        <div class="info">
+          <i class="ph-duotone ph-plus text-yellow-600"></i> 8.000
         </div>
+        <div class="nome">Clietes por ano</div>
+      </div>
 
-        <div class="numero">
-            <div class="info"><i class="ph-duotone ph-plus text-yellow-500"></i> 8.000</div>
-            <div class="nome">Clietes por ano</div>
+      <div class="numero">
+        <div class="info">
+          <i class="ph-duotone ph-plus text-yellow-600"></i> 8.000
         </div>
+        <div class="nome">Clietes por ano</div>
+      </div>
     </div>
 
-
-    <div class="flex flex-col md:flex-row items-center justify-center gap-8 my-20 p-4">
-        <img src="./assets/logo.png" alt="logo marcar da loja">
-        <div class="max-w-[600px] border-l-4 border-yellow-200 pl-4">
-            <h2 class="font-bold text-blue-900 text-2xl">Nós temos o que você precisa</h2>
-            <p class="text-justify">Com anos de experiência em direito trabalhista, [Nome Advogado] tem se dedicado a proteger os direitos dos trabalhadores e a garantir um ambiente de trabalho justo e seguro. Conheça mais sobre minha trajetória e compromisso com a justiça trabalhista.</p>
+    <div
+      class="container mx-auto max-w-5xl flex gap-12 flex-wrap items-start justify-center md:justify-between"
+    >
+      <div class="grid gap-4 justify-items-center text-center md:flex-1">
+        <div class="rounded-full border-8 border-amber-400 p-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-14 h-14"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+            ></path>
+          </svg>
         </div>
+        <h3 class="text-3xl font-bold">Safe</h3>
+        <p>Our products are secure and private out-of-the-box</p>
+      </div>
+      <div class="grid gap-4 justify-items-center text-center md:flex-1">
+        <div class="rounded-full border-8 border-amber-400 p-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-14 h-14"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+            ></path>
+          </svg>
+        </div>
+        <h3 class="text-3xl font-bold">Efficient</h3>
+        <p>Feel good about your wallet and the environment</p>
+      </div>
+      <div class="grid gap-4 justify-items-center text-center md:flex-1">
+        <div class="rounded-full border-8 border-amber-400 p-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-14 h-14"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"
+            ></path>
+          </svg>
+        </div>
+        <h3 class="text-3xl font-bold">Proven</h3>
+        <p>Leading the Smart Home world for 10 years</p>
+      </div>
     </div>
 
-    <section id="vantagens" class="py-16 px-4 my-8 ">
-        <di class="flex flex-col items-center justify-center gap-8 max-w-[800px] m-auto">
-            <div class="flex items-center justify-center flex-col">
-                <h2 class="text-4xl font-bold text-yellow-500">Nós temos o que você precisa</h2>
-                <!-- <button class="mt-4">Quero um orçamento</button> -->
+    <div
+      class="flex flex-col md:flex-row items-center justify-center gap-8 my-20 p-4"
+    >
+      <img src="./assets/logo.png" alt="logo marcar da loja" />
+      <div class="max-w-[600px] border-l-4 border-yellow-200 pl-4">
+        <h2 class="font-bold text-blue-900 text-2xl">
+          Nós temos o que você precisa
+        </h2>
+        <p class="text-justify">
+          Com anos de experiência em direito trabalhista, [Nome Advogado] tem se
+          dedicado a proteger os direitos dos trabalhadores e a garantir um
+          ambiente de trabalho justo e seguro. Conheça mais sobre minha
+          trajetória e compromisso com a justiça trabalhista.
+        </p>
+      </div>
+    </div>
+
+    <section
+      class="flex flex-col lg:h-svh justify-center items-center overflow-scroll"
+    >
+      <div
+        class="prose text-gray-500 prose-sm prose-headings:font-normal prose-headings:text-xl"
+      ></div>
+      <div class="flex flex-wrap mx-auto md:flex-nowrap mt-6 pt-12">
+        <div
+          class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
+        >
+          <article
+            class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
+            style="
+              background-image: url('https://www.yankodesign.com/images/design_news/2019/07/desk-setups-that-maximize-productivity-part-2/Desk-Setup_12.jpg');
+            "
+          >
+            <div
+              class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
+            >
+              <div
+                class="group-hover:bg-black/30 duration-500 group-hover:backdrop-blur p-8 lg:p-10 h-full justify-end flex flex-col"
+              >
+                <p
+                  class="opacity-0 text-white text-sm 2xl:text-lg group-hover:opacity-80 transform duration-500"
+                >
+                  Immerse yourself in a seamless experience where every
+                  touchpoint anticipates your needs. Description one.
+                </p>
+              </div>
             </div>
-            <div class="vantagens">
-                <div class="vantagem">
-                    <h3>Vantagem</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, et corporis recusandae possimus minus dolorum nisi sed nulla nemo aut labore ipsa fuga excepturi vitae voluptas dolorem aspernatur? Dolorum, incidunt?</p>
-                </div>
-                <div class="vantagem">
-                    <h3>Vantagem</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, et corporis recusandae possimus minus dolorum nisi sed nulla nemo aut labore ipsa fuga excepturi vitae voluptas dolorem aspernatur? Dolorum, incidunt?</p>
-                </div>
-                <div class="vantagem">
-                    <h3>Vantagem</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, et corporis recusandae possimus minus dolorum nisi sed nulla nemo aut labore ipsa fuga excepturi vitae voluptas dolorem aspernatur? Dolorum, incidunt?</p>
-                </div>
-                <div class="vantagem">
-                    <h3>Vantagem</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, et corporis recusandae possimus minus dolorum nisi sed nulla nemo aut labore ipsa fuga excepturi vitae voluptas dolorem aspernatur? Dolorum, incidunt?</p>
-                </div>
-            </div>
+          </article>
         </div>
-        
+        <div
+          class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
+        >
+          <article
+            class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
+            style="
+              background-image: url('https://i.pinimg.com/564x/34/65/b8/3465b890b11571e2c876ae74dc1b3139.jpg');
+            "
+          >
+            <div
+              class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
+            >
+              <div
+                class="group-hover:bg-black/30 duration-500 group-hover:backdrop-blur p-8 lg:p-10 h-full justify-end flex flex-col"
+              >
+                <p
+                  class="opacity-0 text-white text-sm 2xl:text-lg group-hover:opacity-80 transform duration-500"
+                >
+                  Engage with a platform where interaction is intuitive,
+                  ensuring your journey is fluid and responsive. Description
+                  two.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div
+          class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
+        >
+          <article
+            class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
+            style="
+              background-image: url('https://i.pinimg.com/564x/33/d6/54/33d654e8058fdf69e160dcbd2235cdac.jpg');
+            "
+          >
+            <div
+              class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
+            >
+              <div
+                class="group-hover:bg-black/30 duration-500 group-hover:backdrop-blur p-8 lg:p-10 h-full justify-end flex flex-col"
+              >
+                <p
+                  class="opacity-0 text-white text-sm 2xl:text-lg group-hover:opacity-80 transform duration-500"
+                >
+                  Discover our commitment to thoughtful design, prioritizing
+                  accessibility and user satisfaction. Description three.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div
+          class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
+        >
+          <article
+            class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
+            style="
+              background-image: url('https://i.pinimg.com/564x/39/b8/01/39b801afe355e623bcb3928b1c1b046d.jpg');
+            "
+          >
+            <div
+              class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
+            >
+              <div
+                class="group-hover:bg-black/30 duration-500 group-hover:backdrop-blur p-8 lg:p-10 h-full justify-end flex flex-col"
+              >
+                <p
+                  class="opacity-0 text-white text-sm 2xl:text-lg group-hover:opacity-80 transform duration-500"
+                >
+                  Experience innovation at every step, with forward-thinking
+                  solutions designed to enhance your daily interactions.
+                  Description four.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div
+          class="relative flex flex-col items-start m-1 transition ease-in-out duration-500 delay-150 transform md:w-96 md:-ml-32 md:hover:-translate-x-32 md:hover:-translate-y-8 shrink-0"
+        >
+          <article
+            class="mx-auto rounded-3xl overflow-hidden bg-cover ring-2 ring-inset ring-white/50 bg-center min-h-150 relative transform duration-500 group"
+            style="
+              background-image: url('https://i.pinimg.com/564x/2b/b5/48/2bb548dbf4a4c57381a7b7f736b4930b.jpg');
+            "
+          >
+            <div
+              class="relative h-full group-hover:bg-opacity-0 min-h-150 flex flex-wrap flex-col pt-[30rem] transform duration-500"
+            >
+              <div
+                class="group-hover:bg-black/30 duration-500 group-hover:backdrop-blur p-8 lg:p-10 h-full justify-end flex flex-col"
+              >
+                <p
+                  class="opacity-0 text-white text-sm 2xl:text-lg group-hover:opacity-80 transform duration-500"
+                >
+                  Join us in embracing sustainability, where design and
+                  functionality meet eco-conscious decisions. Description five.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        <div class="text-center p-8 bg-yellow-600 text-zinc-50 font-bold">
-            Desenvolvido por 
-            <a class="text-sky-800 hover:text-blue-900" href="httpp://claudiojr.vercel.app">Cláudio Jr.</a>
+    <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2
+            class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
+          >
+            Explore Common Questions
+          </h2>
         </div>
+        <div class="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
+          <div
+            class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50"
+          >
+            <button
+              type="button"
+              id="question1"
+              data-state="closed"
+              class="flex items-center justify-between w-full px-4 py-5 sm:p-6"
+            >
+              <span class="flex text-lg font-semibold text-black"
+                >How can I get started?</span
+              >
+              <svg
+                id="arrow1"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="w-6 h-6 text-gray-400"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="answer1"
+              style="display: none"
+              class="px-4 pb-5 sm:px-6 sm:pb-6"
+            >
+              <p>
+                Getting started is easy! Sign up for an account, and you'll have
+                access to our platform's features. No credit card required for
+                the initial signup.
+              </p>
+            </div>
+          </div>
+          <div
+            class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50"
+          >
+            <button
+              type="button"
+              id="question2"
+              data-state="closed"
+              class="flex items-center justify-between w-full px-4 py-5 sm:p-6"
+            >
+              <span class="flex text-lg font-semibold text-black"
+                >What is the pricing structure?</span
+              >
+              <svg
+                id="arrow2"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="w-6 h-6 text-gray-400"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="answer2"
+              style="display: none"
+              class="px-4 pb-5 sm:px-6 sm:pb-6"
+            >
+              <p>
+                Our pricing structure is flexible. We offer both free and paid
+                plans. You can choose the one that suits your needs and budget.
+              </p>
+            </div>
+          </div>
+          <div
+            class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50"
+          >
+            <button
+              type="button"
+              id="question3"
+              data-state="closed"
+              class="flex items-center justify-between w-full px-4 py-5 sm:p-6"
+            >
+              <span class="flex text-lg font-semibold text-black"
+                >What kind of support do you provide?</span
+              >
+              <svg
+                id="arrow3"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="w-6 h-6 text-gray-400"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="answer3"
+              style="display: none"
+              class="px-4 pb-5 sm:px-6 sm:pb-6"
+            >
+              <p>
+                We offer comprehensive customer support. You can reach out to
+                our support team through various channels, including email,
+                chat, and a knowledge base.
+              </p>
+            </div>
+          </div>
+          <div
+            class="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50"
+          >
+            <button
+              type="button"
+              id="question4"
+              data-state="closed"
+              class="flex items-center justify-between w-full px-4 py-5 sm:p-6"
+            >
+              <span class="flex text-lg font-semibold text-black"
+                >Can I cancel my subscription anytime?</span
+              >
+              <svg
+                id="arrow4"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="w-6 h-6 text-gray-400"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+            <div
+              id="answer4"
+              style="display: none"
+              class="px-4 pb-5 sm:px-6 sm:pb-6"
+            >
+              <p>
+                Yes, you can cancel your subscription at any time without any
+                hidden fees. We believe in providing a hassle-free experience
+                for our users.
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="text-center text-gray-600 textbase mt-9">
+          Still have questions?
+          <span
+            class="cursor-pointer font-medium text-tertiary transition-all duration-200 hover:text-tertiary focus:text-tertiary hover-underline"
+            >Contact our support
+          </span>
+        </p>
+      </div>
+      <script>
+        // JavaScript to toggle the answers and rotate the arrows
+        document
+          .querySelectorAll('[id^="question"]')
+          .forEach(function (button, index) {
+            button.addEventListener("click", function () {
+              var answer = document.getElementById("answer" + (index + 1));
+              var arrow = document.getElementById("arrow" + (index + 1));
+
+              if (
+                answer.style.display === "none" ||
+                answer.style.display === ""
+              ) {
+                answer.style.display = "block";
+                arrow.style.transform = "rotate(0deg)";
+              } else {
+                answer.style.display = "none";
+                arrow.style.transform = "rotate(-180deg)";
+              }
+            });
+          });
+      </script>
+    </section>
+
+    <footer
+      class="mt-20 xl:mt-32 mx-auto w-full relative text-center bg-yellow-600 text-white"
+    >
+      <div class="px-6 py-8 md:py-14 xl:pt-20 xl:pb-12">
+        <h2 class="font-bold text-3xl xl:text-4xl leading-snug">
+          Ready to get your productivity back?<br />Start your free trial today.
+        </h2>
+        <a
+          class="mt-8 xl:mt-12 px-12 py-5 text-lg font-medium leading-tight inline-block bg-blue-800 rounded-full shadow-xl border border-transparent hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-sky-999 focus:ring-sky-500"
+          href="#"
+          >Get started</a
+        >
+        <div class="mt-14 xl:mt-20">
+          <nav class="flex flex-wrap justify-center text-lg font-medium">
+            <div class="px-5 py-2"><a href="#">Contact</a></div>
+            <div class="px-5 py-2"><a href="#">Pricing</a></div>
+            <div class="px-5 py-2"><a href="#">Privacy</a></div>
+            <div class="px-5 py-2"><a href="#">Terms</a></div>
+            <div class="px-5 py-2"><a href="#">Twitter</a></div>
+          </nav>
+          <p class="mt-7 text-base">© 2024 ClaudioJr</p>
+        </div>
+      </div>
     </footer>
-    
+
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
